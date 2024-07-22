@@ -1,1 +1,78 @@
 /* Write your CSS here! */
+body{
+    margin: 8px; 
+    display: block;
+}
+
+#mainHeading{
+    color: red;
+    margin-bottom: 0;
+}
+
+#top-header img {
+    position: relative;
+    top: -117px;
+    z-index: -100;
+    width: 100%;
+}
+
+#top-header h3 {
+    color: #fff;
+    margin-top: 0;
+}
+
+#top-header h1, #top-header h3, article, .sub-category-headers {
+    padding-left: 20px;
+}
+
+.sub-category-headers{
+    background: rgba(120, 120, 120, 0.2);
+    padding: 0px 10px;
+    margin-top: 20px;
+    border: 10px solid #999999;
+}
+
+.text-bg {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+main {
+    position: relative;
+    top: -110px;
+}
+
+.column {
+    float: left;
+    width: 520px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+article img {
+   /* float: left;*/
+    margin-right: 20px;
+}
+
+.artist-info {
+    background: #f1f1f1;
+    padding: 0px 20px 0px;
+    margin-top: 68px;
+}
+
+.funParagraph {
+    color: green;
+    float: left;
+    margin: 22px;
+}
+
+
